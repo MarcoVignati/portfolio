@@ -7,7 +7,7 @@ export default function Footer() {
             <nav className="flex-container">
                 <li className="navbar__a"><Link href={'/'}>Twitter</Link></li>
                 <li className="navbar__a"><Link href={'/'}>Linked-in</Link></li>
-                <li className="navbar__a"><Link href={'/'}>Github</Link></li>
+                <li className="navbar__a navbar__projects"><Link href={'/'}>Github</Link></li>
             </nav>
             <span className="footer__lang">lang</span>
         </footer>
