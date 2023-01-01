@@ -1,0 +1,104 @@
+/* Imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+
+/* Variables */
+
+:root {
+    --lable-clr: #607B96;
+}
+
+/* Typography*/
+
+h1 {
+    font-size: 3.875rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+
+.lable {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--lable-clr);
+}
+
+.lable::before {
+    content: "//";
+    margin-right: 0.75rem;
+}
+
+.code-snippet {
+    font-size: 0.875rem;
+}
+
+.home-subheadline {
+    color: #4D5BCE;
+}
+
+a {
+    color: #ffffff;
+}
+
+/* General Desing */
+
+body {
+    background-color: #011627;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar */
+
+.navbar {
+    border: 1px solid #1E2D3D;
+}
+
+.footer {
+    border: 1px solid #1E2D3D;
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar_name {
+    padding: 1.188rem 9.625rem 1.188rem 1.375rem;
+}
+
+.navbar__a {
+    padding: 1.188rem 2rem;
+    border-left: 1px solid #1E2D3D;
+}
+
+.navbar__a:hover {
+    box-shadow: inset 0 -3px 0 0 #FEA55F;
+}
+
+.navbar__projects {
+    border-right: 1px solid #1E2D3D;
+}
+
+.navbar__contact {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer__find {
+    padding: 1.188rem 1.125rem 1.188rem 1.375rem;
+}
+
+.footer__lang {
+    padding: 1.188rem 1.375rem;
+    border-left: 1px solid #1E2D3D;
+}
