@@ -1,3 +1,7 @@
 export default function Page() {
-  return <h1>_about</h1>;
+  return (
+    <main>
+      _about-me
+    </main>
+  )
 }

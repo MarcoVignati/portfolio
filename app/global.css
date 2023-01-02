@@ -115,7 +115,7 @@ body {
     right: 0;
 }
 
-/* Home */
+/* Home Page */
 
 .home {
     width: fit-content;
@@ -141,7 +141,7 @@ body {
     margin-top: 1rem;
 }
 
-.home__images  {
+.home__images {
     width: fit-content;
     height: fit-content;
     position: relative;
@@ -154,4 +154,105 @@ body {
     left: 0;
     right: 90px;
     margin: auto;
+}
+
+/* Projects Page */
+
+.projects__tab {
+    width: 100%;
+    height: 40px;
+    border-bottom: var(--stroke);
+}
+
+.projects__bot-section {
+    display: flex;
+}
+
+.projects__filter {
+    min-width: 310px;
+    max-width: 310px;
+    min-height: 100%;
+    border-right: var(--stroke);
+}
+
+.project__subtitle {
+    font-weight: bold;
+    color: #5565E8;
+}
+
+.project__title {
+    font-weight: 300;
+    color: #607B96;
+}
+
+.project__title::before {
+    content: " // ";
+}
+
+.project__wrapper {
+    width: 370px;
+    border-radius: 15px;
+    border: var(--stroke);
+    margin-top: 0.925rem;
+}
+
+.project__image {
+    position: relative;
+    height: 145px;
+    border-bottom: var(--stroke);
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(96, 112, 96);
+}
+
+.project__tech {
+    position: absolute;
+    top: 1.188rem;
+    right: 1.084rem;
+}
+
+.project__description {
+    border-top: var(--stroke);
+    padding: 1.5rem 1.875rem 1.973rem 1.875rem;
+}
+
+.project__description p {
+    margin-bottom: 1.989rem;
+    line-height: 150%;
+}
+
+.project__description a {
+    padding: 0.625rem 0.875rem;
+    border-radius: 8px;
+    background-color: #1C2B3A;
+}
+
+.test {
+    margin: auto;
+}
+
+.projects__display {
+    height: calc(100vh - 4rem - 114px - 40px);
+    padding: 115.8px 125px 115.8px 127.65px;
+    box-sizing: border-box;
+    gap: 2.540rem;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+}
+
+.projects__display::-webkit-scrollbar {
+    width: 9px;
+    border-left: var(--stroke);
+    background-color: transparent;
+}
+
+.projects__display::-webkit-scrollbar-button {
+    display: none;
+}
+
+.projects__display::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.projects__display::-webkit-scrollbar-thumb {
+    background-color: #607B96;
 }
