@@ -1,4 +1,3 @@
-import CandyCrush from '@/components/candy-crush/CandyCrush';
 import './page.scss';
 
 import Image from 'next/image';
@@ -19,7 +18,6 @@ export default function Home() {
           <p className='code-snippet'>const githubLink = “<a href='https://github.com/MarcoVignati/candy-crush'>github.com/MarcoVignati/candy-crush</a>”</p>
         </div>
       </div>
-      <CandyCrush />
     </section>
   )
 }
