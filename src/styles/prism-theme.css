@@ -2,7 +2,7 @@
 
 pre[class*="language-"],
 code[class*="language-"] {
-	color: #d4d4d4;
+	color: #5565E8;
 	font-size: 1.125rem;
 	text-shadow: none;
 	font-family: 'Fira Code', Menlo, Monaco, Consolas, "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
@@ -52,7 +52,7 @@ pre[class*="language-"] {
 }
 
 .token.doctype .token.doctype-tag {
-	color: #569CD6;
+	color: #C98BDF;
 }
 
 .token.doctype .token.name {
@@ -67,7 +67,7 @@ pre[class*="language-"] {
 .token.punctuation,
 .language-html .language-css .token.punctuation,
 .language-html .language-javascript .token.punctuation {
-	color: #d4d4d4;
+	color: #607B96;
 }
 
 .token.property,
@@ -87,7 +87,7 @@ pre[class*="language-"] {
 .token.char,
 .token.builtin,
 .token.deleted {
-	color: #ce9178;
+	color: #FEA55F;
 }
 
 .language-css .token.string.url {
@@ -96,11 +96,11 @@ pre[class*="language-"] {
 
 .token.operator,
 .token.entity {
-	color: #d4d4d4;
+	color: #C98BDF;
 }
 
 .token.operator.arrow {
-	color: #569CD6;
+	color: #C98BDF;
 }
 
 .token.atrule {
@@ -124,7 +124,7 @@ pre[class*="language-"] {
 }
 
 .token.keyword {
-	color: #569CD6;
+	color: #C98BDF;
 }
 
 .token.keyword.module,
@@ -134,7 +134,7 @@ pre[class*="language-"] {
 
 .token.function,
 .token.function .token.maybe-class-name {
-	color: #dcdcaa;
+	color: #5565E8;
 }
 
 .token.regex {
@@ -142,7 +142,7 @@ pre[class*="language-"] {
 }
 
 .token.important {
-	color: #569cd6;
+	color: #C98BDF;
 }
 
 .token.italic {
@@ -171,18 +171,18 @@ pre[class*="language-"] {
 }
 
 .token.punctuation.interpolation-punctuation {
-	color: #569cd6;
+	color: #C98BDF;
 }
 
 .token.boolean {
-	color: #569cd6;
+	color: #C98BDF;
 }
 
 .token.property,
 .token.variable,
 .token.imports .token.maybe-class-name,
 .token.exports .token.maybe-class-name {
-	color: #9cdcfe;
+	color: #5565E8;
 }
 
 .token.selector {
@@ -194,7 +194,7 @@ pre[class*="language-"] {
 }
 
 .token.tag {
-	color: #569cd6;
+	color: #C98BDF;
 }
 
 .token.tag .token.punctuation {
@@ -219,7 +219,7 @@ pre[class*="language-"] {
 }
 
 .token.entity {
-	color: #569cd6;
+	color: #C98BDF;
 }
 
 .token.namespace {
