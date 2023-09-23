@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "title": "_crud-spring",
+    "description": "Basic CRUD to test my skills on building APIs with spring.",
+    "tech": "react",
+    "view": "https://youtube.com",
+    "github": "https://github.com/MarcoVignati"
+  },
+  {
+    "id": "2",
+    "title": "_todo-list",
+    "description": "Basic todo list developed with NodeJs and NextJs.",
+    "tech": "vue",
+    "view": "https://twitter.com",
+    "github": "https://github.com/MarcoVignati"
+  }
+]
