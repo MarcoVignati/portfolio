@@ -1,3 +1,5 @@
+import '@/styles/globals.scss';
+
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -12,7 +14,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div className='page-wrapper'>
+          <main className='content-wrapper'>
+            {children}
+          </main>
+        </div>
+      </body>
     </html>
   )
 }

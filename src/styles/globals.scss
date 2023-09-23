@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+@import './variables.scss';
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: unset;
+}
+
+h1 {
+  font-size: 3.875rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.lable {
+  font-size: 1rem;
+}
+
+.code-snippet {
+  font-size: 0.875rem;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Fira Code', monospace;
+  color: $mainFontClr;
+  width: 100vw;
+  height: 100vh;
+  padding: $pagePadding;
+  background-color: $bodyClr;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: $mainClr;
+  border-radius: 0.5rem;
+  border: $stroke;
+  position: relative;
+}
+
+.content-wrapper {
+  width: 100%;
+  height: calc(100% - 111px);
+  position: relative;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #607B96 transparent;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 25px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  border-left: $stroke;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #607B96;
+  border: 3px solid transparent;
+}

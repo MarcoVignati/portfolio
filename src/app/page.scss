@@ -1,0 +1,28 @@
+@import '../styles/variables';
+
+.page_home {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  p {
+    color: $mainFontClr;
+  }
+  h2 {
+    color: $secondaryFontClr;
+    font-weight: 400;
+  }
+  .logo_img {
+    margin: 0.875rem 0 1.25rem 0;
+  }
+  .description {
+    margin-top: 4.125rem;
+    margin-right: 115px;
+    p {
+      margin-top: 0.875rem;
+    }
+  }
+}
