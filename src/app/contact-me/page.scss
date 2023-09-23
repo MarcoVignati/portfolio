@@ -1,0 +1,64 @@
+@import '../../styles/variables';
+
+.contact_page {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 0 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  .form {
+    input, textarea {
+      width: 23.25rem;
+      margin-top: 0.625rem;
+      margin-bottom: 1.5rem;
+      background-color: #011221;
+      border: $stroke;
+      border-radius: 0.5rem;
+      padding: 0.625rem 0.938rem;
+      font-family: 'Fira Code', monospace;
+      resize: none;
+      &:focus {
+        border: 1px solid #607B96;
+        outline: 2px solid #1E3448;
+      }
+    }
+    .inputMessage {
+      height: 145px;
+    }
+    #sendBtn {
+      padding: 0.625rem 0.875rem;
+      border-radius: 0.5rem;
+      background-color: #1C2B3A;
+      border: none;
+      font-family: 'Fira Code', monospace;
+      color: #ffffff;
+    }
+  }
+}
+
+.contact_form {
+  width: fit-content;
+  height: fit-content;
+}
+
+.contact_stroke {
+  width: 1px;
+  height: 100%;
+  background-color: $strokeClr;
+}
+
+@media (max-width: 1250px) {
+  .contact_stroke {
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 1020px) {
+  .contact_page {
+    grid-template-columns: 1fr;
+  }
+  .contact_stroke, .contact_code {
+    display: none;
+  }
+}

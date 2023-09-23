@@ -1,4 +1,5 @@
 import '@/styles/globals.scss';
+import '@/styles/prism-theme.css';
 
 import PageFooter from '@/components/page-footer/PageFooter';
 import PageHeader from '@/components/page-header/PageHeader';
