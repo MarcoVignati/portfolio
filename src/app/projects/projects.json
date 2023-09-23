@@ -14,5 +14,69 @@
     "tech": "vue",
     "view": "https://twitter.com",
     "github": "https://github.com/MarcoVignati"
+  },
+  {
+    "id": "3",
+    "title": "_crud-spring",
+    "description": "Basic CRUD to test my skills on building APIs with spring.",
+    "tech": "react",
+    "view": "https://youtube.com",
+    "github": "https://github.com/MarcoVignati"
+  },
+  {
+    "id": "4",
+    "title": "_todo-list",
+    "description": "Basic todo list developed with NodeJs and NextJs.",
+    "tech": "vue",
+    "view": "https://twitter.com",
+    "github": "https://github.com/MarcoVignati"
+  },
+  {
+    "id": "5",
+    "title": "_crud-spring",
+    "description": "Basic CRUD to test my skills on building APIs with spring.",
+    "tech": "react",
+    "view": "https://youtube.com",
+    "github": "https://github.com/MarcoVignati"
+  },
+  {
+    "id": "6",
+    "title": "_todo-list",
+    "description": "Basic todo list developed with NodeJs and NextJs.",
+    "tech": "vue",
+    "view": "https://twitter.com",
+    "github": "https://github.com/MarcoVignati"
+  },
+  {
+    "id": "7",
+    "title": "_crud-spring",
+    "description": "Basic CRUD to test my skills on building APIs with spring.",
+    "tech": "react",
+    "view": "https://youtube.com",
+    "github": "https://github.com/MarcoVignati"
+  },
+  {
+    "id": "8",
+    "title": "_todo-list",
+    "description": "Basic todo list developed with NodeJs and NextJs.",
+    "tech": "vue",
+    "view": "https://twitter.com",
+    "github": "https://github.com/MarcoVignati"
+  },
+  {
+    "id": "9",
+    "title": "_crud-spring",
+    "description": "Basic CRUD to test my skills on building APIs with spring.",
+    "tech": "react",
+    "view": "https://youtube.com",
+    "github": "https://github.com/MarcoVignati"
+  },
+  {
+    "id": "10",
+    "title": "_todo-list",
+    "description": "Basic todo list developed with NodeJs and NextJs.",
+    "tech": "vue",
+    "view": "https://twitter.com",
+    "github": "https://github.com/MarcoVignati"
   }
 ]
