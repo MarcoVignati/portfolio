@@ -1,0 +1,50 @@
+.candy_game {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+  box-sizing: content-box;
+  background-color: rgba(1, 22, 39, 0.84);
+  border-radius: 0.5rem;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  box-shadow: inset 0px 0px 15px 0px rgba(0,0,0,0.5);
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.game_wrapper {
+  width: 510px;
+  height: 510px;
+  border-radius: 0.5rem;
+  background: linear-gradient(160deg, rgba(23,85,83,1) 0%, rgba(67,217,173,0.13) 70%);
+  position: relative;
+}
+
+.bolt:nth-child(1) {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.bolt:nth-child(2) {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.bolt:nth-child(3) {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+}
+
+.bolt:nth-child(4) {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
