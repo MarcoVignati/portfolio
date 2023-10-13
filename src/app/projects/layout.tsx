@@ -20,7 +20,7 @@ export default function ProjectsLayout({
   children: React.ReactNode
 }) {
 
-  const [categoriasSelecionadas, setCategoriasSelecionadas] :any[] = useState([]);
+  const [categoriasSelecionadas, setCategoriasSelecionadas]: any[] = useState([]);
   const [itensFiltrados, setItensFiltrados] = useState(data);
 
   // Função para aplicar o filtro
@@ -34,12 +34,12 @@ export default function ProjectsLayout({
   };
 
   // Manipulador de mudança de caixa de seleção
-  const handleCheckboxChange = (event :any) => {
+  const handleCheckboxChange = (event: any) => {
     const { value, checked } = event.target;
     if (checked) {
       setCategoriasSelecionadas([...categoriasSelecionadas, value]);
     } else {
-      const novasCategoriasSelecionadas = categoriasSelecionadas.filter((categoria :any) => categoria !== value);
+      const novasCategoriasSelecionadas = categoriasSelecionadas.filter((categoria: any) => categoria !== value);
       setCategoriasSelecionadas(novasCategoriasSelecionadas);
     }
   };
@@ -133,29 +133,38 @@ export default function ProjectsLayout({
         </>
       </aside>
       <section className='projects_content'>
-      <main className="projects_list">
-        {itensFiltrados.map(item => {
-          return (
-            <div className="card_wrapper" key={item.id}>
-              <p className="project_title"><span><strong>Project {item.id}</strong></span> // {item.title}</p>
-              <div className="project_card">
-                <div className="img_wrapper">
-                  <img src={`./covers/${item.id}.png`} alt={item.id} />
-                  <div className="tech_box">
-                    <img className='img_tech' src={`./icons/${item.tech}.png`} alt={item.tech} />
+        <main className="projects_list">
+          {itensFiltrados.map(item => {
+            return (
+              <div className="card_wrapper" key={item.id}>
+                <p className="project_title"><span><strong>Project {item.id}</strong></span> // {item.title}</p>
+                <div className="project_card">
+                  <div className="img_wrapper">
+                    <img className='img_wrapper_cover' src={`./covers/${item.id}.png`} alt={item.id} />
+                    <div className="tech_box">
+                      {
+                        item.tech.map((stackInfo: any) => {
+                          console.log(stackInfo)
+                          return (
+                            <div className='tech_stack' style={{ backgroundColor: stackInfo.color }}>
+                              <img className='img_tech' src={`./icons/${stackInfo.stack}.svg`} alt={stackInfo.alt} />
+                            </div>
+                          )
+                        })
+                      }
+                    </div>
                   </div>
-                </div>
-                <div className="description">
-                  <p>{item.description}</p>
-                  <div className="btn flex">
-                    <a target="_blank" href={item.view} className="btn_view">view-project</a>
-                    <a target="_blank" href={item.github}><IconGithub /></a>
+                  <div className="description">
+                    <p>{item.description}</p>
+                    <div className="btn flex">
+                      <a target="_blank" href={item.view} className="btn_view">view-project</a>
+                      <a target="_blank" href={item.github}><IconGithub /></a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          )
-        })}</main>
+            )
+          })}</main>
       </section>
     </section>
   )

@@ -24,8 +24,6 @@
   }
 }
 
-
-
 .checkbox {
   display: inline-block;
   vertical-align: middle;
@@ -151,7 +149,7 @@
     height: 146px;
     position: relative;
 
-    img {
+    .img_wrapper_cover {
       width: 368px;
       height: 145px;
       border-radius: 15px 15px 0 0;
@@ -163,12 +161,6 @@
       right: 1rem;
       display: flex;
       gap: 0.5rem;
-
-      .img_tech {
-        width: 28px;
-        height: 28px;
-        border-radius: 0;
-      }
     }
   }
 
@@ -208,4 +200,17 @@
   font-size: 0.875rem;
   color: white;
   border-radius: 0.5rem;
+}
+
+.tech_stack {
+  width: 28px;
+  height: 28px;
+  border-radius: 2px;
+  position: relative;
+  img {
+    height: 18px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+  }
 }
