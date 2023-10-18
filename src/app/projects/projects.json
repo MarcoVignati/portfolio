@@ -21,7 +21,7 @@
       }
     ],
     "view": "https://youtube.com",
-    "github": "https://github.com/MarcoVignati"
+    "github": "https://github.com/MarcoVignati/js-developer-pokedex"
   },
   {
     "id": "2",
@@ -44,8 +44,8 @@
         "color": "#95D6F0"
       }
     ],
-    "view": "https://twitter.com",
-    "github": "https://github.com/MarcoVignati"
+    "view": "https://angular-blog-livid.vercel.app",
+    "github": "https://github.com/MarcoVignati/angular-blog"
   },
   {
     "id": "3",
