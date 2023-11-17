@@ -1,11 +1,11 @@
-import Image from "next/image"
-import projects from './projects.json'
-import IconGithub from "@/components/icons/socials/IconGithub";
+'use client'
 
-export default function Projects() {
-  return (
-    <main>
-      
-    </main>
-  )
+import projects from './projects.json';
+
+import ProjectCard from './project-card';
+
+export default function ProjectsPage() {
+  return projects.map(project => (
+    <ProjectCard data={project}/>
+  ))
 }

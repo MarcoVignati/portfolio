@@ -104,11 +104,6 @@
         "stack": "postgres",
         "color": "#0277BD",
         "alt": "Postgres"
-      },
-      {
-        "stack": "railway",
-        "color": "#545260",
-        "alt": "Railway"
       }
     ],
     "view": "https://twitter.com",
