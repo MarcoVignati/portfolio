@@ -1,27 +1,5 @@
 import IconGithub from "@/components/icons/socials/IconGithub";
-
-type Techs = {
-  stack: string,
-  alt: string,
-  color: string
-}
-
-export type Project = {
-  data: {
-    id: string,
-    title: string,
-    description: string,
-    view: string,
-    github: string,
-    tech: [
-      {
-        stack: string,
-        alt: string,
-        color: string
-      }
-    ]
-  }
-}
+import './page.scss'
 
 export default function ProjectCard(project: any) {
   return (

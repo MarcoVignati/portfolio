@@ -10,7 +10,7 @@ export default function Home() {
         <div>
           <p>Hi all. I am</p>
           <Image className='logo_img' src={Logo} height="144" alt="" draggable={false} />
-          <h2>&gt; Full Stack developer</h2>
+          <h2 className='text-subheadline'>&gt; Full Stack developer</h2>
         </div>
         <div className="home_description">
           <p className='lable'>// match three to score points</p>
