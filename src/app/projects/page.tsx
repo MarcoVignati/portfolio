@@ -10,12 +10,12 @@ import Image from 'next/image';
 
 
 export default function ProjectsPage() {
-  const [selectedFilters, setSelectedFilters] = useState([]);
+  const [selectedFilters, setSelectedFilters] = useState<string[]>([]);
   const [filteredItems, setFilteredItems] = useState(projects);
 
-  let filters = ["Angular","NextJs", "VueJs", "NuxtJs", "Spring", "NodeJs"];
+  let filters: string[] = ["Angular","NextJs", "VueJs", "NuxtJs", "Spring", "NodeJs"];
 
-  const handleFilterButtonClick = (selectedCategory) => {
+  const handleFilterButtonClick = (selectedCategory: string) => {
     if (selectedFilters.includes(selectedCategory)) {
       let filters = selectedFilters.filter((el) => el !== selectedCategory);
       setSelectedFilters(filters);
