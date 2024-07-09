@@ -21,8 +21,8 @@ export default function ProjectCard(project: any) {
         <div className="card_info">
           <p>{project.data.description}</p>
           <div className="flex info_btns">
-            <a className="view_btn" href={project.data.view}>view-project</a>
-            <a className="github_btn" href={project.data.github}><IconGithub /></a>
+            <a className="view_btn" target="_blank" href={project.data.view}>view-project</a>
+            <a className="github_btn" target="_blank" href={project.data.github}><IconGithub /></a>
           </div>
         </div>
       </div>
