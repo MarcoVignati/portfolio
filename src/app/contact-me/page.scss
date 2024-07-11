@@ -50,7 +50,7 @@
 .contact_stroke {
   width: 1px;
   height: 100%;
-  background-color: $strokeClr;
+  background-color: transparent;
 }
 
 @media (min-width: 446px) {
@@ -67,7 +67,7 @@
   }
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1216px) {
   .contact_page {
     grid-template-columns: 1fr;
   }

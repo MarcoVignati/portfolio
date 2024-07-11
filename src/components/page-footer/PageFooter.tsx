@@ -11,9 +11,9 @@ export default function PageFooter() {
       <span>find me in:</span>
       <nav>
         <li><a href="https://www.linkedin.com/in/marcovignatidev/" target='blank'><IconLinkedin /></a></li>
-        <li><a href="https://twitter.com/marcovignatidev" target='blank'><IconTwitter /></a></li>
-        <li><a href="/"><IconFacebook /></a></li>
-        <li><a className="instagram" href="https://www.instagram.com/vignati.dev/" target='blank'><IconInstagram /></a></li>
+        <li className='un'><a href="https://twitter.com/marcovignatidev" target='blank'><IconTwitter /></a></li>
+        <li className='un'><a href="/"><IconFacebook /></a></li>
+        <li className='un'><a className="instagram" href="https://www.instagram.com/vignati.dev/" target='blank'><IconInstagram /></a></li>
         <li><a className="github" href="https://github.com/MarcoVignati" target='blank'><IconGithub /><p>@marcovignati</p></a></li>
       </nav>
     </footer>
