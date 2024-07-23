@@ -2,7 +2,7 @@
 
 .page_home {
   max-width: 1160px;
-  height: fit-content;
+  height: 100%;
   padding: 0 20px;
   position: absolute;
   inset: 0;
@@ -34,9 +34,9 @@
   }
 }
 
-.game-wrapper {
+.gameboard_wrapper {
   width: 468px;
-  height: 468px;
+  max-height: 468px;
   padding: 45px;
   box-sizing: content-box;
   border-radius: 8px;
@@ -46,6 +46,8 @@
 }
 
 .board-wrapper {
+  width: 448px;
+  max-height: 448px;
   background-color: rgba(1, 22, 39, 0.84);
   padding: 10px;
   box-sizing: content-box;
@@ -80,6 +82,7 @@
     height: 120px;
     width: fit-content;
   }
+
   h2 {
     font-size: 1.75rem;
   }
@@ -90,6 +93,7 @@
     height: 108px;
     width: fit-content;
   }
+
   h2 {
     font-size: 1.5rem;
   }

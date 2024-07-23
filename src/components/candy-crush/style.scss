@@ -1,7 +1,9 @@
 .game_board {
-  width: 448px;
+  width: 449px;
+  max-height: 448px;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .candy {
@@ -12,5 +14,10 @@
 .candy-wrapper {
   width: 56px;
   height: 56px;
-  padding: 3px;
+  display: flex;
+  align-items: center;
+
+  img {
+    margin: auto;
+  }
 }

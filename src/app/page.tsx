@@ -19,7 +19,7 @@ export default function Home() {
           <p className='code-snippet'>const githubLink = “<a href='https://github.com/MarcoVignati/candy-crush' target="_blank">github.com/MarcoVignati/candy-crush</a>”</p>
         </div>
       </div>
-      <div className='game-wrapper candy_related'>
+      <div className='gameboard_wrapper candy_related'>
         <div className='board-wrapper'>
           <GameBoard />
         </div>
